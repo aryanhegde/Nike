@@ -11,8 +11,8 @@ const Footer = () => {
             <img src={footerLogo} alt="Logo" width={156} height={46} />
           </a>
           <p className="mt-6 text-white-400 text-base font-montserrat sm:max-w-sm">
-            Get shoes ready for the new term at your nearest Nike shoe store.
-            Find tour perfect size in store. Get Rewards
+            Crafting Healthy, Beautiful Smiles: Experience Excellence in
+            Dentistry at Sumukha Dentals
           </p>
           <div className="flex items-center gap-5 mt-8">
             {socialMedia.map((icon) => (
@@ -37,7 +37,7 @@ const Footer = () => {
                     key={link.name}
                     className="mt-3 font-montserrat text-white-400 text-base leading-normal hover:text-slate-gray cursor-pointer"
                   >
-                    <a>{link.name}</a>
+                    <a href={link.link}>{link.name}</a>
                   </li>
                 ))}
               </ul>

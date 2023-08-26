@@ -1,133 +1,161 @@
 import {
+  dentalChair,
+  dentalIcon,
   facebook,
   instagram,
-  shieldTick,
-  support,
-  truckFast,
+  smileIcon,
+  toothIcon,
   twitter,
 } from "../assets/icons";
-import {
-  bigShoe1,
-  bigShoe2,
-  bigShoe3,
-  customer1,
-  customer2,
-  shoe4,
-  shoe5,
-  shoe6,
-  shoe7,
-  thumbnailShoe1,
-  thumbnailShoe2,
-  thumbnailShoe3,
-} from "../assets/images";
+import { customer1, customer2 } from "../assets/images";
 
 export const navLinks = [
   { href: "#home", label: "Home" },
   { href: "#about-us", label: "About Us" },
-  { href: "#products", label: "Products" },
+  { href: "#services", label: "Services" },
   { href: "#contact-us", label: "Contact Us" },
 ];
 
-export const shoes = [
-  {
-    thumbnail: thumbnailShoe1,
-    bigShoe: bigShoe1,
-  },
-  {
-    thumbnail: thumbnailShoe2,
-    bigShoe: bigShoe2,
-  },
-  {
-    thumbnail: thumbnailShoe3,
-    bigShoe: bigShoe3,
-  },
-];
-
 export const statistics = [
-  { value: "1k+", label: "Brands" },
-  { value: "500+", label: "Shops" },
-  { value: "250k+", label: "Customers" },
-];
-
-export const products = [
-  {
-    imgURL: shoe4,
-    name: "Nike Air Jordan-01",
-    price: "$200.20",
-  },
-  {
-    imgURL: shoe5,
-    name: "Nike Air Jordan-10",
-    price: "$210.20",
-  },
-  {
-    imgURL: shoe6,
-    name: "Nike Air Jordan-100",
-    price: "$220.20",
-  },
-  {
-    imgURL: shoe7,
-    name: "Nike Air Jordan-001",
-    price: "$230.20",
-  },
+  { value: "500+", label: "Smiles Brightened" },
+  { value: "500+", label: "Successful Procedures" },
+  { value: "5-Star", label: "Patient Reviews" },
 ];
 
 export const services = [
   {
-    imgURL: truckFast,
-    label: "Free shipping",
-    subtext: "Enjoy seamless shopping with our complimentary shipping service.",
-  },
-  {
-    imgURL: shieldTick,
-    label: "Secure Payment",
+    imgURL: dentalChair,
+    label: "Advanced Dental Technology",
     subtext:
-      "Experience worry-free transactions with our secure payment options.",
+      "Experience cutting-edge technology for precise diagnostics and comfortable treatments.",
   },
   {
-    imgURL: support,
-    label: "Love to help you",
-    subtext: "Our dedicated team is here to assist you every step of the way.",
+    imgURL: smileIcon,
+    label: "Cosmetic Smile Enhancement",
+    subtext:
+      "Achieve your dream smile with our range of cosmetic treatments tailored to your preferences.",
+  },
+  {
+    imgURL: toothIcon,
+    label: "Personalized Treatment Plans",
+    subtext:
+      "Receive individualized care plans designed to address your unique dental needs and goals.",
   },
 ];
 
 export const reviews = [
   {
     imgURL: customer1,
-    customerName: "Morich Brown",
+    customerName: "Aarav Patel",
     rating: 4.5,
     feedback:
-      "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!",
+      "Impressed with the attention to dental health and the quality of care provided. Highly recommended!",
   },
   {
     imgURL: customer2,
-    customerName: "Lota Mongeskar",
+    customerName: "Ananya Sharma",
     rating: 4.5,
     feedback:
-      "The product not only met but exceeded my expectations. I'll definitely be a returning customer!",
+      "The dental services not only met but exceeded my expectations. I'm genuinely delighted!",
+  },
+  {
+    imgURL: "https://source.unsplash.com/1600x1000/?girl",
+    customerName: "Neha Kapoor",
+    rating: 5.0,
+    feedback:
+      "Exceptional dental care that's on par with international standards. I'm immensely satisfied!",
+  },
+];
+
+export const socialMedia = [
+  { src: facebook, alt: "facebook logo" },
+  { src: twitter, alt: "twitter logo" },
+  { src: instagram, alt: "instagram logo" },
+];
+
+export const dentalServices = [
+  {
+    label: "Cleanings & Exams",
+    icon: dentalIcon,
+    subText:
+      "Routine cleanings and exams help you keep your smile healthy for a lifetime.",
+  },
+  {
+    label: "Invisalign",
+    icon: dentalIcon,
+    subText:
+      "Get a straighter smile without bulky metal braces. Invisalign is the #1 recommended choice.",
+  },
+  {
+    label: "Dental Fillings",
+    icon: dentalIcon,
+    subText:
+      "Repair damaged teeth and cavities and restore the look and function of your smile.",
+  },
+
+  {
+    label: "Teeth Whitening",
+    icon: dentalIcon,
+    subText:
+      "Shine up those pearly whites with professional teeth whitening. In-office and take-home options.",
+  },
+  {
+    label: "Gum Treatements",
+    icon: dentalIcon,
+    subText:
+      "Treat infections in your gums and mouth tissue and remove plaque and tartar buildup.",
+  },
+  {
+    label: "Implants",
+    icon: dentalIcon,
+    subText:
+      "The gold standard for replacing missing or damaged teeth. Put our expertise to work for your smile.",
+  },
+  {
+    label: "Tooth Removal",
+    icon: dentalIcon,
+    subText:
+      "We have the expertise to comfortably remove damaged or problematic teeth so you can take back your smile",
+  },
+  {
+    label: "Implant-Retained Dentures",
+    icon: dentalIcon,
+    subText:
+      "The modern denture solution. Great for your health and lifestyle! Replace one or several teeth.",
+  },
+  {
+    label: "Crowns",
+    icon: dentalIcon,
+    subText:
+      "Crowns restore the functionality and appearance of your tooth and are often the last step of a root canal or implant.    ",
+  },
+  {
+    label: "Veneers",
+    icon: dentalIcon,
+    subText:
+      "Get the smile you’ve always wanted with veneers that seamlessly cover the front of damaged or discolored teeth.      ",
   },
 ];
 
 export const footerLinks = [
   {
-    title: "Products",
+    title: "Services",
     links: [
-      { name: "Air Force 1", link: "/" },
-      { name: "Air Max 1", link: "/" },
-      { name: "Air Jordan 1", link: "/" },
-      { name: "Air Force 2", link: "/" },
-      { name: "Nike Waffle Racer", link: "/" },
-      { name: "Nike Cortez", link: "/" },
+      { name: "Invisalign", link: "/" },
+      { name: "Teeth Filling", link: "/" },
+      { name: "Teeth Whitening", link: "/" },
+      { name: "Tooth Removal", link: "/" },
+      { name: "Implants", link: "/" },
+      { name: "Crowns", link: "/" },
     ],
   },
   {
-    title: "Help",
+    title: "Links",
     links: [
-      { name: "About us", link: "/" },
+      { name: "About us", link: "#about-us" },
       { name: "FAQs", link: "/" },
-      { name: "How it works", link: "/" },
-      { name: "Privacy policy", link: "/" },
-      { name: "Payment policy", link: "/" },
+      { name: "Services", link: "#services" },
+      { name: "Contact Us", link: "#contact-us" },
     ],
   },
   {
@@ -137,10 +165,4 @@ export const footerLinks = [
       { name: "+92554862354", link: "tel:+92554862354" },
     ],
   },
-];
-
-export const socialMedia = [
-  { src: facebook, alt: "facebook logo" },
-  { src: twitter, alt: "twitter logo" },
-  { src: instagram, alt: "instagram logo" },
 ];
