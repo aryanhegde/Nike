@@ -8,7 +8,6 @@ import {
   Subscribe,
   Footer,
 } from "./sections";
-import Gallery from "./sections/Gallery";
 
 export default function App() {
   return (

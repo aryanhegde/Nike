@@ -5,7 +5,7 @@ function Gallery() {
         Explore our <span className="text-coral-red">Dental</span> Gallery
       </h2>
       <p className="font-light leading-6">
-        Explore our clinic's moments, from skilled procedures to satisfied
+        Explore our clinic&apos;s moments, from skilled procedures to satisfied
         smiles. Witness our dedication to dental care excellence and patient
         satisfaction.{" "}
       </p>
